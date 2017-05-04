@@ -1,11 +1,16 @@
 body{
   background: #333333;
 
+  #fig2{
+      animation: sk-rotate 2.6s infinite ease-in-out;
+  }
+
   .sk-cube-grid{
     width: 100px;
     height: 100px;
-    margin-left: 500px;
-    margin-top: 400px;
+    margin: auto;
+    margin-top: 60px;
+
     .sk-cube{
       width: 33%;
       height: 33%;
@@ -14,12 +19,27 @@ body{
     }
 
     @mixin animationDelay($dTime) {
-      -webkit-animation-delay: $dTime/10;
-      animation-delay: $dTime/10;
+      animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out;
+      -webkit-animation-delay: $dTime/10*1s;
+      animation-delay: $dTime/10*1s;
+    }
+
+    @mixin animationDelayRotate($dTime) {
+      -o-animation: sk-rotate 1.3s infinite ease-in-out, sk-cubeGridScaledDelay 1.3s infinite ease-in-out;
+      -webkit-animation: sk-rotate 1.3s infinite ease-in-out, sk-cubeGridScaledDelay 1.3s infinite ease-in-out;
+      animation: sk-rotate 1.3s infinite ease-in-out, sk-cubeGridScaledDelay 1.3s infinite ease-in-out;
+      -webkit-animation-delay: $dTime/10*1s;
+      animation-delay: $dTime/10*1s;
     }
 
     @for $i from 1 through 9{
-      .sk-cube-#{$i}{@include animationDelay($i);}
+      .sk-1cube#{$i}{
+        @include animationDelay($i);
+      }
+
+      .sk-2cube#{$i}{
+        @include animationDelayRotate($i);
+      }
     }
   }
 
@@ -31,6 +51,17 @@ body{
     35%{
       -webkit-transform: scale3D(0,0, 1);
       transform: scale3d(0,0,1);
+    }
+  }
+
+  @keyframes sk-rotate{
+    from{
+      -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+      transform: rotate(0deg);
+    }
+    to{
+      -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+      transform: rotate(360deg);
     }
   }
 

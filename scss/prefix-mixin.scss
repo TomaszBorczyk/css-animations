@@ -34,10 +34,20 @@
   }
 }
 
-@mixin animation-delay($delay){
-  -webkit-animation-delay: $delay;
-  -moz-animation-delay: $delay;
-  -ms-animation-delay: $delay;
-  -o-animation-delay: $delay;
-  animation-delay: $delay;
+@mixin animation-delay($delay...){
+  $length: length($delay);
+  $del: '';
+
+  @for $i from 1 through $length{
+    $del: #{$del + nth($delay, $i)};
+    @if $i<$length{
+      $del: #{$del + ' '};
+    }
+  }
+
+  -webkit-animation-delay: $del;
+  -moz-animation-delay: $del;
+  -ms-animation-delay: $del;
+  -o-animation-delay: $del;
+  animation-delay: $del;
 }

@@ -1,0 +1,34 @@
+@import "prefix-mixin.scss";
+
+body{
+
+  .sk-cube-grid{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+
+    .sk-cube{
+      width: 33%;
+      height: 33%;
+      float: left;
+      background-color: #fff;
+    }
+
+    @for $i from 1 through 9{
+      .sk-1cube#{$i}{
+        @include animation('sk-cubeGridScaledDelay 1.3s infinite ease-in-out both');
+        @include animation-delay($i/10*1s);
+      }
+    }
+  }
+
+@include keyframes(sk-cubeGridScaledDelay){
+  0%, 70%, 100%{
+    transform: scale3D(1,1,1);
+  }35%{
+    transform: scale3d(0,0,1);
+  }
+}
+
+}

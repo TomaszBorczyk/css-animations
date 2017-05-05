@@ -1,0 +1,136 @@
+body .sk-cube-grid {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 60px; }
+  body .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    float: left;
+    background-color: #fff; }
+  body .sk-cube-grid .sk-1cube1 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.1s;
+    -moz-animation-delay: 0.1s;
+    -ms-animation-delay: 0.1s;
+    -o-animation-delay: 0.1s;
+    animation-delay: 0.1s; }
+  body .sk-cube-grid .sk-1cube2 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.2s;
+    -moz-animation-delay: 0.2s;
+    -ms-animation-delay: 0.2s;
+    -o-animation-delay: 0.2s;
+    animation-delay: 0.2s; }
+  body .sk-cube-grid .sk-1cube3 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.3s;
+    -moz-animation-delay: 0.3s;
+    -ms-animation-delay: 0.3s;
+    -o-animation-delay: 0.3s;
+    animation-delay: 0.3s; }
+  body .sk-cube-grid .sk-1cube4 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    -ms-animation-delay: 0.4s;
+    -o-animation-delay: 0.4s;
+    animation-delay: 0.4s; }
+  body .sk-cube-grid .sk-1cube5 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -ms-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s; }
+  body .sk-cube-grid .sk-1cube6 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    -ms-animation-delay: 0.6s;
+    -o-animation-delay: 0.6s;
+    animation-delay: 0.6s; }
+  body .sk-cube-grid .sk-1cube7 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.7s;
+    -moz-animation-delay: 0.7s;
+    -ms-animation-delay: 0.7s;
+    -o-animation-delay: 0.7s;
+    animation-delay: 0.7s; }
+  body .sk-cube-grid .sk-1cube8 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    -ms-animation-delay: 0.8s;
+    -o-animation-delay: 0.8s;
+    animation-delay: 0.8s; }
+  body .sk-cube-grid .sk-1cube9 {
+    -webkit-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -moz-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -ms-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -o-animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    animation: sk-cubeGridScaledDelay 1.3s infinite ease-in-out both;
+    -webkit-animation-delay: 0.9s;
+    -moz-animation-delay: 0.9s;
+    -ms-animation-delay: 0.9s;
+    -o-animation-delay: 0.9s;
+    animation-delay: 0.9s; }
+@-webkit-keyframes sk-cubeGridScaledDelay {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1); }
+  35% {
+    transform: scale3d(0, 0, 1); } }
+@-moz-keyframes sk-cubeGridScaledDelay {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1); }
+  35% {
+    transform: scale3d(0, 0, 1); } }
+@-o-keyframes sk-cubeGridScaledDelay {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1); }
+  35% {
+    transform: scale3d(0, 0, 1); } }
+@-ms-keyframes sk-cubeGridScaledDelay {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1); }
+  35% {
+    transform: scale3d(0, 0, 1); } }
+@keyframes sk-cubeGridScaledDelay {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1); }
+  35% {
+    transform: scale3d(0, 0, 1); } }
+
+/*# sourceMappingURL=cube-grid.css.map */
